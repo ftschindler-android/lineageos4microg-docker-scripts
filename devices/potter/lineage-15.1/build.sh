@@ -10,6 +10,8 @@ for ii in src logs manifests ccache; do
     mkdir -p ${THISDIR}/$ii
 done
 
+# disable ccache due to https://github.com/ccache/ccache/issues/153
+
 docker run \
     --memory=10G \
     --kernel-memory=10G \
