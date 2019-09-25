@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- from this thread: https://forum.xda-developers.com/nexus-4/development/rom-lineageos-15-1-t3758779-->
+<manifest>
+  <project name="voron00/android_device_lge_mako" path="device/lge/mako" remote="github" revision="lineage-16.0" />
+  <project name="ftschindler-android/proprietary_vendor_lge_mako" path="vendor/lge/mako" remote="github" revision="lineage-16.0" />
+  <project name="voron00/android_kernel_lge_mako" path="kernel/lge/mako" remote="github" revision="lineage-16.0" />
+</manifest>
