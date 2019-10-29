@@ -1,7 +1,7 @@
 #!/bin/bash
 
 docker run \
-    -e "BRANCH_NAME=lineage-14.1" \
+    -e "BRANCH_NAME=cm-14.1" \
     -e "DEVICE_LIST=potter" \
     -e "INCLUDE_PROPRIETARY=false" \
     -e "SIGN_BUILDS=true" \

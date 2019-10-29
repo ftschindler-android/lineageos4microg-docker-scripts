@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- von dem hatte ich das 14.1 image -->
 <manifest>
-  <project name="boulzordev/android_device_motorola_potter" path="device/motorola/potter" remote="github" revision="cm-14.1" />
-  <project name="TheMuppets/proprietary_vendor_motorola" path="vendor/motorola" remote="github" revision="cm-14.1" />
-  <project name="boulzordev/android_kernel_motorola_msm8953" path="kernel/motorola/msm8953" remote="github" revision="cm-14.1" />
+  <project path="device/motorola/potter" name="NZedPred/android_device_motorola_potter" remote="github" revision="cm-14.1"/>
+  <project path="vendor/motorola/potter" name="NZedPred/android_vendor_motorola_potter" remote="github" revision="cm-14.1"/>
+  <project path="kernel/motorola/msm8953" name="NZedPred/android_kernel_motorola_potter" remote="github" revision="cm-14.1-next"/>
+  <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" remote="github" />
+  <project path="external/bson" name="LineageOS/android_external_bson" remote="github" />
+  <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="github" revision="cm-14.1"/>
 </manifest>
